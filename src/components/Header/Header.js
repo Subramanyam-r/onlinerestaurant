@@ -10,7 +10,7 @@ function Header() {
   <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div className="navbar-nav">
       <a className="nav-link" href="/">Customer <span className="sr-only">(current)</span></a>
-      <a className="nav-link" href="/">Restaurant</a>
+      <a className="nav-link" href="/restaurant">Restaurant</a>
     </div>
   </div>
 </nav>
