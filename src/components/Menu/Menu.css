@@ -1,0 +1,9 @@
+.menu-main {
+    padding: 4rem 1rem;
+}
+
+@media (max-width: 768px) {
+    .menu-main {
+        padding: 4rem 4rem;
+    }
+}
