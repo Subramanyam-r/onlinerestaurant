@@ -11,7 +11,7 @@ function Customer({ ENDPOINT, location }) {
     useEffect( () => {
         socket = io(ENDPOINT);
 
-        socket.on("tableUpdate", ({tables}) => {
+        socket.on("tableUpdate", ({tables}) => {    
             setTables(tables);
         });
 

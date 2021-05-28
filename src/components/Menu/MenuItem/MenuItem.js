@@ -7,8 +7,8 @@ function MenuItem({item, socket, table}) {
     const [nos, setNos] = useState("");
 
     function handleOrderPlaceClick() {
-        if(item.available >= nos && nos !== "" && nos > 0) {
-            socket.emit("orderplaced", item.name, nos, table, () => {
+        if(parseInt(item.available) >= parseInt(nos) && parseInt(nos) !== "" && parseInt(nos) > 0) {
+            socket.emit("orderplaced", item.name, parseInt(nos), table, () => {
             });
         } else {
             window.$("#itemNotAvailable").modal();
