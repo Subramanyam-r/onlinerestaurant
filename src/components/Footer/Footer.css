@@ -1,3 +1,7 @@
 .footer-copyright {
     color: rgba(255, 255, 255, 0.562);
 }
+
+.footer-icons:hover {
+    color: rgb(14, 14, 14);
+}

@@ -35,10 +35,10 @@ function Restaurant({ ENDPOINT, location }) {
 
     return <div className="container restaurant-main">
         <div className="row">
-            <div className="col-6">
+            <div className="col-sm-6">
                 <h1 className="d-inline">Restaurant Portal</h1>
             </div>
-            <div className="text-right col-6">
+            <div className="text-right col-sm-6">
                 <button className="btn btn-primary mt-3" onClick={handleMenuUpdate}>Menu Update</button>
             </div>
         </div>
