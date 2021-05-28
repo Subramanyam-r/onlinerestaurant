@@ -22,7 +22,6 @@ let menusockets = ["", "", "", "", "", ""];
 let orders = [];
 
 app.get("/", (req, res) => {
-
     res.send("Checkup: Balajee Bhavan backend is up!");
 });
 
