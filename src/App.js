@@ -8,7 +8,7 @@ import Menu from "./components/Menu/Menu";
 import Restaurant from "./components/Restaurant/Restaurant";
 
 function App() {
-    const ENDPOINT = "https://bb-bkd.herokuapp.com/";
+    const ENDPOINT = "https://backend-dot-true-harmony-315121.uc.r.appspot.com/";
 
     return <div>
         <Header />
